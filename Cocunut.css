@@ -1,0 +1,132 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+   background-image: url("tree.jpg");
+   background-size: 100% 100%;
+    color: #fff;
+    
+}
+#header{
+       width: 100%;
+       height: 100vh;
+       background-size: cover;
+       background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    float: left; 
+    margin-top: 5%;
+    margin-left: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    color:#fff;
+
+
+}
+nav ul li a::after{
+    content:'';
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+nav ul li a i{
+    text-decoration: none;
+    font-size:30px ;
+    display: inline-block;
+    color:#fff;
+}
+
+.header-text{
+    margin-top: 10%;
+    font-size: 50px;
+    float: left;
+}
+.header-text h1{
+    float: left;
+    font-size: 80px;
+    color:#fff;
+    margin-left: 60%;
+    margin-bottom: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 200px;
+    
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+        margin-top: 20%;
+    
+}
+.NUT{
+    width: 30px;
+    height: 40px;
+}
+
+/*-------contact----*/
+.contact-left{
+    flex-basis: 35%;
+    color: #fff;
+}
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #fff;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.socialicon{
+    margin-top: 30px;
+}
+.socialicon a{
+    text-decoration: none;
+    font-size:18px ;
+    margin-right: 15px;
+    display: inline-block;
+    color:#fff;
+}
+.copyrigth{
+    width: 100%;
+    text-align: center;
+    padding:25px 0 ;
+    background:#262626;
+    margin-top: 20px;
+    font-weight: 300;
+}
+h1{
+    font-size: 100px;
+    margin-left: 10px;
+}
